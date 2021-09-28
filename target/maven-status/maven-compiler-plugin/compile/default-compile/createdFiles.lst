@@ -1,0 +1,4 @@
+App.class
+com\example\entities\Aliment.class
+com\example\entities\Category.class
+com\example\entities\Nutriment.class
