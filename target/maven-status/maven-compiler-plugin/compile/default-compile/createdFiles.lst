@@ -1,4 +1,11 @@
-App.class
-com\example\entities\Aliment.class
+com\example\dao\DaoAlimentImpl.class
+com\example\dao\DaoCategoryInterface.class
 com\example\entities\Category.class
+com\example\dao\DaoAlimentInterface.class
+com\example\dao\DaoFactory.class
+com\example\dao\DaoNutrimentInterface.class
+com\example\entities\Aliment.class
+com\example\dao\DaoNutrimentImpl.class
 com\example\entities\Nutriment.class
+com\example\dao\DaoCategoryImpl.class
+com\example\app\App.class

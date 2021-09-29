@@ -1,5 +1,5 @@
 package com.example.dao;
 
-public interface daoCategoryInterface {
+public interface DaoCategoryInterface {
     void getCategories(Integer id);
 }

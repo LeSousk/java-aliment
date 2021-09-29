@@ -1,6 +1,6 @@
 package com.example.dao;
 
-public class daoCategoryImpl implements daoCategoryInterface {
+public class DaoCategoryImpl implements DaoCategoryInterface {
 
     @Override
     public void getCategories(Integer id) {
