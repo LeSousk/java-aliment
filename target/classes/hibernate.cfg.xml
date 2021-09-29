@@ -21,9 +21,9 @@
             <property name="hbm2ddl.auto">update</property>
 
 
-            <mapping class="com.example.entities.Aliment"/>
-            <mapping class="com.example.entities.Category"/>
-            <mapping class="com.example.entities.Nutriment"/>
+            <mapping class="com.example.entity.Aliment"/>
+            <mapping class="com.example.entity.Category"/>
+            <mapping class="com.example.entity.Nutriment"/>
 
         </session-factory>
 

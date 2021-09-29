@@ -1,6 +1,6 @@
 package com.example.dao;
 
-import com.example.entities.Aliment;
+import com.example.entity.Aliment;
 
 public interface DaoAlimentInterface {
     //void getCategories(Integer id);
