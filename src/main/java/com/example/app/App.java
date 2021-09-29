@@ -8,7 +8,7 @@ public class App {
 
 
     public static void main(String[] args) {
-        DaoAlimentInterface dao = (DaoAlimentInterface) DaoFactory.getAlimentDao();
+        DaoAlimentInterface dao = DaoFactory.getAlimentDao();
         Aliment ali = new Aliment();
         ali.setName("rwd");
 
