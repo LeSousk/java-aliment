@@ -10,8 +10,13 @@ public class Aliment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String name;
+
+    @ManyToOne
     private Category category;
+
+    @OneToMany
     private List<Nutriment> nutriments;
 
     public String getName() {
@@ -22,7 +27,6 @@ public class Aliment {
         this.name = name;
     }
 
-    @ManyToOne
     public Category getCategory() {
          if (category == null) {
              return new Category();
@@ -34,7 +38,6 @@ public class Aliment {
         this.category = category;
     }
 
-    @OneToMany
     public List<Nutriment> getNutriments() {
         return nutriments;
     }
